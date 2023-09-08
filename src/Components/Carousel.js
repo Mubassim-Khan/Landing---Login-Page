@@ -3,9 +3,6 @@ import React from 'react'
 export default function Carousel() {
     return (
         <>
-            {/* <div className="container d-flex">
-                <h2 className='d-none d-md-block'>Website</h2>
-            </div> */}
             <div id="carouselExampleFade" className="carousel slide carousel-fade my-2" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
