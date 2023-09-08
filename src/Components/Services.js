@@ -6,7 +6,7 @@ export default function Services() {
       <div className="container aos-init aos-animate" data-aos="fade-up">
 
         <div className="section-title">
-          <h2>Services</h2>
+          <h2><i className="fa-solid fa-plug"></i> Services</h2>
         </div>
           
         <div className="row">

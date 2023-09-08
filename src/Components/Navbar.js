@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from "../Assets/logo.png"
 
 export default function Navbar() {
     return (
         <>
-        <header style={{paddingTop: "0px"}}>
-        {/* <div className="sub-header d-none d-md-block">
+            {/* <div className="sub-header d-none d-md-block">
 		<div className="container">
 			<div className="row">
 				<div className="col-xs-6 col-sm-5 col-custom">
@@ -31,33 +31,36 @@ export default function Navbar() {
 			</div>
 		</div>
 	</div> */}
-        <nav className="navbar navbar-expand-lg bg-light border-bottom border-body fixed-top">
-            <div className="container-fluid">
-                <Link className="navbar-brand" to="/">Website</Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/about">About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact Us</Link>
-                        </li>
-                    </ul>
-                    <form className="d-flex">
-                        <Link className="btn btn-outline-success mx-2" type="button" to="/login">Log In</Link>
-                        <Link className="btn btn-success mx-2" type="button" to="/signup">Sign Up</Link>
-                    </form>
-                </div>
-            </div>
-        </nav>
-        </header>
-
+            <header style={{ paddingTop: "0px" }}>
+                <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                    <div className="container-md gx-0">
+                        <Link to="/">
+                            <img src={Logo} alt='logo' style={{ height: "40px", width: "110px", borderRadius: "5px" }} />
+                        </Link>
+                        <Link className="navbar-brand mx-3" to="/">DotCom Communications</Link>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li className="nav-item">
+                                    <Link className="nav-link content-navbar" aria-current="page" to="/">Home</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link content-navbar" to="/about">About</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link content-navbar" to="/contact">Contact Us</Link>
+                                </li>
+                            </ul>
+                            <form className="d-flex">
+                                <Link className="btn btn-outline-success mx-2" type="button" to="/login">Log In</Link>
+                                <Link className="btn btn-success mx-2" type="button" to="/signup">Sign Up</Link>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
         </>
     )
 }

@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/' element={<LandingPage />}></Route>
           <Route exact path='/about' element={<About />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

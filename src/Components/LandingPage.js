@@ -1,6 +1,5 @@
 import React from 'react'
 import Services from './Services'
-import Vision from './Vision'
 import Carousel from './Carousel'
 import Conetent from './Content'
 
@@ -11,7 +10,6 @@ export default function LandingPage() {
             <Carousel/>
             <Conetent/>
             <Services />
-            {/* <Vision /> */}
         </>
     )
 }
