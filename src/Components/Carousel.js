@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hero() {
+export default function Carousel() {
     return (
         <>
             {/* <div className="container d-flex">
