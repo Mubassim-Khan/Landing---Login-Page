@@ -11,7 +11,7 @@ export default function Carousel() {
                     <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div className="carousel-inner" >
-                    <div className="carousel-item active" style={{ maxHeight: "550px" }}>
+                    <div className="carousel-item slider-overlay active">
                         <img src="https://www.connect.net.pk/assets/application/public/images/slider/img-slider-techonology-mini.webp" className="d-block w-100" alt="testing img 1" />
                         <div className="carousel-caption">
                             <div className="container">
@@ -24,7 +24,7 @@ export default function Carousel() {
                             </div>
                         </div>
                     </div>
-                    <div className="carousel-item" style={{ maxHeight: "550px" }}>
+                    <div className="carousel-item slider-overlay">
                         <img src="https://www.connect.net.pk/assets/application/public/images/slider/img-slider-infrastructure-mini.webp" className="d-block w-100" alt="testing img 2" />
                         <div className="carousel-caption">
                             <div className="container">
@@ -37,7 +37,7 @@ export default function Carousel() {
                             </div>
                         </div>
                     </div>
-                    <div className="carousel-item" style={{ maxHeight: "550px" }}>
+                    <div className="carousel-item slider-overlay">
                         <img src="https://www.connect.net.pk/assets/application/public/images/slider/img-slider-speed-mini.webp" className="d-block w-100" alt="testing img 3" />
                         <div className="carousel-caption">
                             <div className="container">
@@ -50,7 +50,7 @@ export default function Carousel() {
                             </div>
                         </div>
                     </div>
-                    <div className="carousel-item" style={{ maxHeight: "550px" }}>
+                    <div className="carousel-item slider-overlay">
                         <img src="https://www.connect.net.pk/assets/application/public/images/slider/img-slider-hardwork-mini.webp" className="d-block w-100" alt="testing img 4" />
                         <div className="carousel-caption">
                             <div className="container">
