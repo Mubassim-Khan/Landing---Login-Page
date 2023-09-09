@@ -283,3 +283,9 @@ ul {
   font-size: 18px;
   margin-bottom: 15px;
 }
+
+.page-heading-text-below{
+  font-size: 18px;
+  margin-top: 5%;
+  margin-bottom: -35px;
+}

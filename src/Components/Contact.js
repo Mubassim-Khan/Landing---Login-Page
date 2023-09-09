@@ -83,6 +83,7 @@ export default function Contact(props) {
                         </div>
                     </div>
                 </div>
+                <p className="page-heading-text-below">We value your feedback and are committed to providing you with the best possible service on DotCom Communications. If you have any suggestions on how we can improve our website or services, please let us know. Our team is always looking for ways to enhance the customer experience on DotCom Communications and we appreciate any feedback you can provide.<br />Thank you for choosing DotCom Communications. We look forward to hearing from you!</p>
             </div>
         </>
     )
